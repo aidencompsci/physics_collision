@@ -8,8 +8,11 @@ numpy: 1.18.1
 
 version 0 is where I finally got the physics actually working.
 technically it is version 4, but we don't count those first ones :)
+![](https://imgur.com/U33qJAF)
+
 
 version 1 has simplified equation code a slight bit and added mass
+(not pushed to github yet)
 
 potential future addons. of course who knows if I actually add them or not
 - [ ] add a ball editor
