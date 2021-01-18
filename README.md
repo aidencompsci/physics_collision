@@ -8,7 +8,7 @@ numpy: 1.18.1
 
 version 0 is where I finally got the physics actually working.
 technically it is version 4, but we don't count those first ones :)
-![](https://imgur.com/U33qJAF)
+![](https://i.imgur.com/U33qJAF.mp4)
 
 
 version 1 has simplified equation code a slight bit and added mass
