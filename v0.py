@@ -33,7 +33,6 @@ running = True
 target_fps = 120
 target_tick = 17
 clean_pass = False
-print_collision_info = False
 dt = 0
 clock = pygame.time.Clock()
 
@@ -179,13 +178,6 @@ def update():
 					clean_pass = False
 					ball.set_partner(ball2)
 					ball2.set_partner(ball)
-					if print_collision_info:
-						print("collided")
-						print()
-						print("ball\n", ball)
-						print()
-						print("ball2\n", ball2)
-						print("================BEFORE================")
 
 					f1 = ball.vel
 					f2 = ball2.vel
@@ -209,13 +201,6 @@ def update():
 					#update real positions
 					ball.vel = newf1
 					ball2.vel = newf2
-					if print_collision_info:
-						print("================AFTER================")
-						print("ball\n", ball)
-						print()
-						print("ball2\n", ball2)
-						print()
-					#pause()
 
 	pygame.display.flip()
 	return True
